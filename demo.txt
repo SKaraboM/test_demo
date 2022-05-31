@@ -1,3 +1,0 @@
-hello world of git
-
-learning git once again!!
