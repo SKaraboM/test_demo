@@ -1,12 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<link rel="stylesheet" href="styling/app.css">
 	<title>Title of the page</title>
 </head>
 <body>
-	<h1>Hello World of webpages</h1>
-	<p>We are going to learn how to write html pages</p>
+	<form action=""><div class="container">
+		<h1>Register</h1>
+		<p>Please fill in the form</p>
 
-	<h2>Here we go...</h2>
+		<hr/>
+		<label><b>First name: </b></label>
+		<input type="text" placeholder="First name" name="fname" id="fname" required>
+		<br/>
+		<label><b>Password: </b></label>
+		<input type="password" placeholder="Enter password" name="pword" id="pword" required>
+	
+		<hr/>
+
+		<button type="submit">Register</button></div>
+	</form>
 </body>
 </html>
