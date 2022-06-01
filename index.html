@@ -2,23 +2,29 @@
 <html lang="en">
 <head>
 	<link rel="stylesheet" href="styling/app.css">
-	<title>Title of the page</title>
+	<title> my page</title>
 </head>
 <body>
-	<form action=""><div class="container">
-		<h1>Register</h1>
-		<p>Please fill in the form</p>
-
-		<hr/>
-		<label><b>First name: </b></label>
-		<input type="text" placeholder="First name" name="fname" id="fname" required>
-		<br/>
-		<label><b>Password: </b></label>
-		<input type="password" placeholder="Enter password" name="pword" id="pword" required>
+	<div class = "container">
+		<div id="question-container">
+			<div id="question"></div>
+			<div id="answer-button" class="btn-grid hide">
+				<button class="btn">Answer1</button>
+				<button class="btn">Answer2</button>
+				<button class="btn">Answer3</button>
+				<button class="btn">Answer4</button>
+			</div>
+		</div>
+		<div class="controls">
+			<button id="start-btn" class="start-btn btn">Start</button>
+			<button id="next-btn" class="next-btn btn hide">Next</button>
+		</div>
+		<div class="score">
+			<span id="right-answers"> </span>
+		</div>
+	</div> 
+		
+		<script src="script/script.js"></script>
 	
-		<hr/>
-
-		<button type="submit">Register</button></div>
-	</form>
 </body>
 </html>
